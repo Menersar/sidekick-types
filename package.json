@@ -1,7 +1,7 @@
 {
-  "name": "@turbowarp/types",
+  "name": "sidekick-types",
   "version": "0.0.9",
-  "description": "Type definitions for the Scratch VM and editor",
+  "description": "Type definitions for the Scratch VM and editor; version customized for Sidekick.",
   "keywords": [
     "scratch"
   ],
@@ -16,14 +16,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/TurboWarp/types.git"
+    "url": "git+https://github.com/Menersar/sidekick-types.git"
   },
   "author": "",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/TurboWarp/types/issues"
+    "url": "https://github.com/Menersar/sidekick-types/issues"
   },
-  "homepage": "https://github.com/TurboWarp/types#readme",
+  "homepage": "https://github.com/Menersar/sidekick-types#readme",
   "dependencies": {},
   "devDependencies": {
     "typescript": "^4.7.4"
