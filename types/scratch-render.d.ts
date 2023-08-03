@@ -85,7 +85,7 @@ declare namespace RenderWebGL {
   }
 
   class Silhouette {
-    // TW
+    // Sidekick
     unlazy(): void;
 
     static _updateCanvas(): HTMLCanvasElement;
@@ -108,10 +108,11 @@ declare namespace RenderWebGL {
     isTouchingNearest(textureCoordinate: twgl.V3): void;
     isTouchingLinear(textureCoordinate: twgl.V3): void;
   }
-
-  // TW: Skin is not an EventListener
+ 
+  //   !!! ???
+  // 'Skin' is not an 'EventListener'.
   class Skin {
-    // TW
+    // Sidekick
     _renderer: RenderWebGL;
     emitWasAltered(): void;
 
@@ -393,7 +394,7 @@ declare namespace RenderWebGL {
   }
 
   interface ScratchRenderEventMap {
-    // TW
+    // Sidekick
     UseHighQualityRenderChanged: [boolean];
     AllowPrivateSkinAccessChanged: [boolean];
 
@@ -404,7 +405,7 @@ declare namespace RenderWebGL {
 }
 
 declare class RenderWebGL extends EventEmitter<RenderWebGL.ScratchRenderEventMap> {
-  // TW
+  // Sidekick
   static powerPreference: WebGLPowerPreference;
   /**
    * aka high quality pen.

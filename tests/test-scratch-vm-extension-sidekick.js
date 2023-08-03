@@ -15,7 +15,10 @@
             arguments: {
               URL: {
                 type: Scratch.ArgumentType.STRING,
-                defaultValue: 'https://extensions.turbowarp.org/hello.txt'
+                // !!! CHANGE !!!
+                // defaultValue: 'https://extensions.turbowarp.org/hello.txt'
+                // defaultValue: 'https://mixality.github.io/Sidekick/extensions/hello.txt'
+                defaultValue: 'https://menersar.github.io/Sidekick/extensions/hello.txt'
               }
             }
           }
@@ -43,7 +46,10 @@
       return {
         id: 'testbutton',
         name: 'test 123',
-        docsURI: 'https://extensions.turbowarp.org',
+        // !!! CHANGE !!!
+        // docsURI: 'https://extensions.turbowarp.org',
+        // docsURI: 'https://github.com/Mixality/Sidekick#readme',
+        docsURI: 'https://github.com/Menersar/Sidekick#readme',
         blocks: [
           {
             blockType: Scratch.BlockType.BUTTON,

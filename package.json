@@ -24,7 +24,6 @@
     "url": "https://github.com/Menersar/sidekick-types/issues"
   },
   "homepage": "https://github.com/Menersar/sidekick-types#readme",
-  "dependencies": {},
   "devDependencies": {
     "typescript": "^4.7.4"
   }

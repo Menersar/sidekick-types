@@ -10,7 +10,7 @@
 /// <reference path="./scratch-svg-renderer.d.ts" />
 
 declare namespace VM {
-  // TW
+  // Sidekick
   interface RuntimeOptions {
     maxClones: number;
     miscLimits: boolean;
@@ -95,7 +95,7 @@ declare namespace VM {
 
     name: string;
 
-    /** TW: asset may be null in packaged runtime mode (runtime.isPackaged) */
+    /** Asset may be null in packaged runtime mode (runtime.isPackaged) */
     asset: ScratchStorage.Asset | null;
   }
 
@@ -739,7 +739,7 @@ declare namespace VM {
   }
 
   interface Thread {
-    // TW
+    // Sidekick
     isCompiled: boolean;
     tryCompile(): void;
     triedToCompile: boolean;
@@ -813,7 +813,7 @@ declare namespace VM {
   }
 
   interface ExtensionManager {
-    // TW
+    // Sidekick
     securityManager: SecurityManager;
 
     runtime: Runtime;
@@ -991,7 +991,7 @@ declare namespace VM {
   }
 
   interface RuntimeAndVirtualMachineEventMap {
-    // TW
+    // Sidekick
     RUNTIME_OPTIONS_CHANGED: [RuntimeOptions];
     COMPILER_OPTIONS_CHANGED: [CompilerOptions];
     FRAMERATE_CHANGED: [number];
@@ -1092,7 +1092,7 @@ declare namespace VM {
   }
 
   interface RuntimeEventMap extends RuntimeAndVirtualMachineEventMap {
-    // TW
+    // Sidekick
     BEFORE_EXECUTE: [];
     AFTER_EXECUTE: [];
 
@@ -1135,7 +1135,7 @@ declare namespace VM {
   }
 
   interface Runtime extends EventEmitter<RuntimeEventMap> {
-    // TW
+    // Sidekick
     threadMap: Map<string, Thread>;
     frameLoop: FrameLoop;
     cloudOptions: CloudOptions;
@@ -1465,7 +1465,7 @@ declare namespace VM {
 }
 
 declare class VM extends EventEmitter<VM.VirtualMachineEventMap> {
-  // TW
+  // Sidekick
   saveProjectSb3Stream(): JSZip.StreamHelper<'arraybuffer'>;
   saveProjectSb3Stream<T extends keyof JSZip.OutputTypes>(type: T): JSZip.StreamHelper<T>;
   saveProjectSb3DontZip(): Record<string, Uint8Array>;
@@ -1589,7 +1589,7 @@ declare class VM extends EventEmitter<VM.VirtualMachineEventMap> {
   /**
    * the project to a compressed sb3 file.
    */
-  // TW
+  // Sidekick
   saveProjectSb3<T extends keyof JSZip.OutputTypes>(type: T): Promise<JSZip.OutputTypes[T]>;
   saveProjectSb3(): Promise<Blob>;
 
