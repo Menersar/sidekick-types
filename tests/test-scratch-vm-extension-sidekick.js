@@ -16,7 +16,6 @@
               URL: {
                 type: Scratch.ArgumentType.STRING,
                 // !!! CHANGE !!!
-                // defaultValue: 'https://extensions.turbowarp.org/hello.txt'
                 // defaultValue: 'https://mixality.github.io/Sidekick/extensions/hello.txt'
                 defaultValue: 'https://menersar.github.io/Sidekick/extensions/hello.txt'
               }
@@ -47,9 +46,8 @@
         id: 'testbutton',
         name: 'test 123',
         // !!! CHANGE !!!
-        // docsURI: 'https://extensions.turbowarp.org',
-        // docsURI: 'https://github.com/Mixality/Sidekick#readme',
-        docsURI: 'https://github.com/Menersar/Sidekick#readme',
+        // docsURI: 'https://github.com/Mixality/extensions',
+        docsURI: 'https://github.com/Menersar/extensions',
         blocks: [
           {
             blockType: Scratch.BlockType.BUTTON,
