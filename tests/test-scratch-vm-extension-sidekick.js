@@ -17,7 +17,7 @@
                 type: Scratch.ArgumentType.STRING,
                 // !!! CHANGE !!!
                 // defaultValue: 'https://mixality.github.io/Sidekick/extensions/hello.txt'
-                defaultValue: 'https://menersar.github.io/Sidekick/extensions/hello.txt'
+                defaultValue: 'https://menersar.github.io/Sidekick/sidekick-extensions/hello.txt'
               }
             }
           }
@@ -47,7 +47,7 @@
         name: 'test 123',
         // !!! CHANGE !!!
         // docsURI: 'https://github.com/Mixality/extensions',
-        docsURI: 'https://github.com/Menersar/extensions',
+        docsURI: 'https://github.com/Menersar/sidekick-extensions',
         blocks: [
           {
             blockType: Scratch.BlockType.BUTTON,
