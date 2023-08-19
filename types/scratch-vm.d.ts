@@ -653,11 +653,13 @@ declare namespace VM {
     toJSON(): SerializedTarget;
   }
 
+  // !!! ???
   // These types are intended for use in a browser environment where a base Target can never be created as
   // all targets are RenderedTarget.
   type Target = RenderedTarget;
 
   interface SerializedTarget {
+    // !!! 'TODO'? ???
     // TODO
   }
 
@@ -793,6 +795,7 @@ declare namespace VM {
   }
 
   interface ProfilerFrame {
+    // !!! 'TODO'? ???
     // TODO
   }
 
@@ -1205,6 +1208,7 @@ declare namespace VM {
 
     turboMode: boolean;
 
+    // !!! Exact reason? ???
     /**
      * If true, the runtime is running at 60 FPS. If false, the runtime is running at 30 FPS.
      */
