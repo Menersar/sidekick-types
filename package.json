@@ -1,6 +1,6 @@
 {
   "name": "sidekick-types",
-  "version": "0.0.9",
+  "version": "0.1.0",
   "description": "Type definitions for the Scratch VM and editor; version customized for Sidekick.",
   "keywords": [
     "scratch"

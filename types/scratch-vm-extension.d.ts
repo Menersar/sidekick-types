@@ -84,12 +84,9 @@ declare namespace Scratch {
     const BOOLEAN: 'Boolean';
     const BUTTON: 'button';
     const COMMAND: 'command';
-    /** @deprecated does not work in compiler */
     const CONDITIONAL: 'conditional';
-    /** @deprecated use HAT instead */
     const EVENT: 'event';
     const HAT: 'hat';
-    /** @deprecated does not work in compiler */
     const LOOP: 'loop';
     const REPORTER: 'reporter';
   }
