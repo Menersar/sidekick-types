@@ -17,7 +17,7 @@
                 type: Scratch.ArgumentType.STRING,
                 // !!! CHANGE !!!
                 // defaultValue: 'https://mixality.github.io/Sidekick/extensions/hello.txt'
-                defaultValue: 'https://menersar.github.io/Sidekick/sidekick-extensions/hello.txt'
+                defaultValue: 'https://menersar.github.io/sidekick-extensions/hello.txt'
               }
             }
           }

@@ -18,7 +18,7 @@
                 // !!! CHANGE !!!
                 // defaultValue: 'https://extensions.turbowarp.org/hello.txt'
                 // defaultValue: 'https://mixality.github.io/Sidekick/extensions/hello.txt'
-                defaultValue: 'https://menersar.github.io/Sidekick/sidekick-extensions/hello.txt'
+                defaultValue: 'https://menersar.github.io/sidekick-extensions/hello.txt'
               }
             }
           },
@@ -40,7 +40,7 @@
                 // !!! CHANGE !!!
                 // dataURI: 'https://extensions.turbowarp.org/dango.png',
                 // dataURI: 'https://mixality.github.io/Sidekick/extensions/dango.png',
-                dataURI: 'https://menersar.github.io/Sidekick/sidekick-extensions/sidekick.png',
+                dataURI: 'https://menersar.github.io/sidekick-extensions.png',
               },
               BOOLEAN: {
                 type: Scratch.ArgumentType.BOOLEAN
