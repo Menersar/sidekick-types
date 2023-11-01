@@ -372,6 +372,16 @@ declare namespace VM {
       motionAmount: number;
       motionDirection: number;
     };
+
+    // "Scratch.pigpio": {
+    //   penDown: boolean;
+    //   color: number;
+    //   saturation: number;
+    //   brightness: number;
+    //   transparency: number;
+    //   _shade: number;
+    //   penAttributes: RenderWebGL.PenAttributes;
+    // };
   }
 
   interface BaseTarget extends EventEmitter<RenderedTargetEventMap> {
